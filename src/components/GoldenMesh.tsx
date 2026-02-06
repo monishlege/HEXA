@@ -17,7 +17,6 @@ function Mesh() {
     mesh.position.y = -2;
     return mesh;
   }, []);
-  // @ts-expect-error attaching raw mesh
   return <primitive object={grid} />;
 }
 
