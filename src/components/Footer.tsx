@@ -30,9 +30,9 @@ export default function Footer() {
             <div className="mt-4 space-y-2 text-sm text-zinc-300">
               <div className="font-semibold">Vishwas S</div>
               <div>Technical Project Manager</div>
-              <a href="https://wa.me/917829110701" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-300">
+              <a href="https://wa.me/918197356866" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-300">
                 <Phone className="size-4" />
-                +91 78291 10701
+                +91 81973 56866
               </a>
             </div>
           </div>
