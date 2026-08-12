@@ -57,7 +57,7 @@ export default function HeroSplit() {
               )}
             </div>
             <span className="font-display text-lg text-[color:var(--foreground)]">
-              HEXACORE ROYAL  
+              HEXACORE ROYAL
             </span>
           </div>
 

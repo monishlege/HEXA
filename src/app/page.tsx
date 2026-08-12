@@ -36,7 +36,7 @@ export default function Home() {
             <div className="mt-6 flex justify-center gap-4">
               <a
                 href={`https://wa.me/917829110701?text=${encodeURIComponent(
-                  "Hi Hemon Tech, I’d like to schedule a consultation."
+                  "Hi HEXACORE ROYAL, I’d like to schedule a consultation."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

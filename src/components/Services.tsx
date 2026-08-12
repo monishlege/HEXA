@@ -1,12 +1,14 @@
 "use client";
 import { motion } from "framer-motion";
 import { MonitorSmartphone, PenTool, Search, Gauge, Megaphone, Layers } from "lucide-react";
+import Link from "next/link";
 
 const services = [
   {
     title: "Web Design & Development",
     icon: MonitorSmartphone,
     features: ["Responsive Design", "Performance Optimized", "SEO Ready"],
+    href: "/services/web-development",
   },
   {
     title: "Brand Identity Design",
@@ -17,6 +19,7 @@ const services = [
     title: "SEO & Performance",
     icon: Search,
     features: ["Technical SEO", "Speed Optimization", "Analytics Setup"],
+    href: "/services/seo",
   },
   {
     title: "Digital Marketing",
@@ -27,11 +30,13 @@ const services = [
     title: "UX/UI Excellence",
     icon: Layers,
     features: ["User Research", "Prototyping", "Interface Design"],
+    href: "/services/ui-ux",
   },
   {
     title: "Performance Optimization",
     icon: Gauge,
     features: ["Speed Optimization", "Core Web Vitals", "Technical Audits"],
+    href: "/services/performance",
   },
 ];
 
@@ -72,6 +77,13 @@ export default function Services() {
                 </li>
               ))}
             </ul>
+            {s.href ? (
+              <div className="mt-5">
+                <Link href={s.href} className="text-sm text-[color:var(--accent-cyan)] hover:underline">
+                  Learn more →
+                </Link>
+              </div>
+            ) : null}
           </motion.div>
         ))}
       </div>

@@ -66,7 +66,7 @@ export default function Leadership() {
         Leadership & Identity
       </h2>
       <p className="mt-2 text-center text-zinc-400">
-        HEXACORE ROYAL — The Gold Standard of Digital Evolution
+        HEXACORE ROYAL — Premium Web Design for Modern Brands
       </p>
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2">

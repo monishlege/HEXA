@@ -28,14 +28,14 @@ export default function HeroAgency() {
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div className="rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl shadow-2xl p-6 md:p-8">
             <div className="mb-4 text-sm text-cyan-300/80">
-              HEXACORE ROYAL — Premium Digital Solutions by Mahi & Chirag
+              HEXACORE ROYAL — Premium Web Design Services in Bangalore
             </div>
             <h1 className="text-3xl leading-tight text-white md:text-5xl">
               Premium Websites That Turn Visitors Into Clients
             </h1>
             <p className="mt-4 text-zinc-300 md:text-lg">
-              For startups, small businesses, and founders in India. Fast delivery,
-              conversion‑focused design, and SEO‑ready builds.
+              For startups, small businesses, and founders in Bangalore, India. Fast delivery, conversion‑focused design,
+              and SEO‑ready builds.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -48,7 +48,7 @@ export default function HeroAgency() {
                 Get a Free Website Audit
               </a>
               <Link
-                href="#services"
+                href="#portfolio"
                 className="inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold text-cyan-300 border border-cyan-300/40 hover:bg-cyan-300 hover:text-black transition"
               >
                 View Our Work

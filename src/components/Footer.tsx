@@ -1,5 +1,6 @@
 "use client";
 import { Mail, Phone, Globe } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -33,21 +34,20 @@ export default function Footer() {
             <ul className="mt-4 space-y-2 text-sm text-zinc-300">
               <li><a href="#home" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Home</a></li>
               <li><a href="#about" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> About</a></li>
-              <li><a href="#services" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Services</a></li>
+              <li><Link href="/services" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Services</Link></li>
               <li><a href="#pricing" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Pricing</a></li>
               <li><a href="#contact" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Contact</a></li>
+              <li><Link href="/work" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Work</Link></li>
             </ul>
           </div>
 
           <div>
             <div className="font-display text-lg text-[color:var(--foreground)]">Services</div>
             <ul className="mt-4 space-y-2 text-sm text-zinc-300">
-              <li>Web Design & Development</li>
-              <li>Brand Identity Design</li>
-              <li>SEO & Performance</li>
-              <li>Digital Marketing</li>
-              <li>UX/UI Excellence</li>
-              <li>Performance Optimization</li>
+              <li><Link href="/services/web-development" className="hover:text-cyan-300">Web Design & Development</Link></li>
+              <li><Link href="/services/ui-ux" className="hover:text-cyan-300">UI/UX & Landing Pages</Link></li>
+              <li><Link href="/services/seo" className="hover:text-cyan-300">SEO Services</Link></li>
+              <li><Link href="/services/performance" className="hover:text-cyan-300">Performance Optimization</Link></li>
             </ul>
           </div>
         </div>
