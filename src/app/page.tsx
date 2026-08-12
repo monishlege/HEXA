@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
 import PricingAlt from "@/components/PricingAlt";
 import SectionReveal from "@/components/SectionReveal";
+import GoogleReviews from "@/components/GoogleReviews";
 import ContactAudit from "@/components/ContactAudit";
 import Footer from "@/components/Footer";
 
@@ -22,6 +23,9 @@ export default function Home() {
       </SectionReveal>
       <SectionReveal>
         <PricingAlt />
+      </SectionReveal>
+      <SectionReveal>
+        <GoogleReviews />
       </SectionReveal>
       <SectionReveal>
         <section className="mx-auto max-w-7xl px-6">
