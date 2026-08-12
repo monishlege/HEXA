@@ -1,6 +1,7 @@
 import HeroAgency from "@/components/HeroAgency";
 import About from "@/components/About";
 import Services from "@/components/Services";
+import Portfolio from "@/components/Portfolio";
 import PricingAlt from "@/components/PricingAlt";
 import SectionReveal from "@/components/SectionReveal";
 import ContactAudit from "@/components/ContactAudit";
@@ -17,7 +18,7 @@ export default function Home() {
         <Services />
       </SectionReveal>
       <SectionReveal>
-        {/* Portfolio removed */}
+        <Portfolio />
       </SectionReveal>
       <SectionReveal>
         <PricingAlt />
@@ -35,7 +36,7 @@ export default function Home() {
             <div className="mt-6 flex justify-center gap-4">
               <a
                 href={`https://wa.me/917829110701?text=${encodeURIComponent(
-                  "Hi HEXACORE ROYAL, I’d like to schedule a consultation."
+                  "Hi Hemon Tech, I’d like to schedule a consultation."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
