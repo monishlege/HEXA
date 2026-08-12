@@ -2,20 +2,9 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import DevSeoBackdrop from "./DevSeoBackdrop";
 
 export default function HeroSplit() {
-  const [hasLogo, setHasLogo] = useState<boolean>(true);
-  useEffect(() => {
-    let mounted = true;
-    fetch("/hexacore-royal-logo.png", { method: "HEAD" })
-      .then((r) => mounted && setHasLogo(r.ok))
-      .catch(() => mounted && setHasLogo(false));
-    return () => {
-      mounted = false;
-    };
-  }, []);
   return (
     <section className="relative px-0">
       <div className="relative bg-slate-950">
@@ -43,18 +32,14 @@ export default function HeroSplit() {
             >
           <div className="flex items-center gap-3 mb-5 justify-start md:justify-start">
             <div className="relative h-10 w-10 overflow-hidden rounded-full gold-border grid place-items-center">
-              {hasLogo ? (
-                <Image
-                  src="/hexacore-royal-logo.png"
-                  alt="HEXACORE ROYAL logo"
-                  fill
-                  sizes="40px"
-                  className="object-cover"
-                  priority
-                />
-              ) : (
-                <div className="font-display text-[color:var(--accent)]">RT</div>
-              )}
+              <Image
+                src="/logo.svg"
+                alt="HEXACORE ROYAL logo"
+                fill
+                sizes="40px"
+                className="object-cover"
+                priority
+              />
             </div>
             <span className="font-display text-lg text-[color:var(--foreground)]">
               HEXACORE ROYAL

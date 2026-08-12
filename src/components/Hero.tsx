@@ -32,8 +32,8 @@ export default function Hero() {
         <div className="mx-auto mb-6 grid place-items-center">
           <div className="relative h-14 w-14 overflow-hidden rounded-full gold-border">
             <Image
-              src="/royal-tech-logo.png"
-              alt="Royal Tech logo"
+              src="/logo.svg"
+              alt="HEXACORE ROYAL logo"
               fill
               sizes="56px"
               className="object-cover"

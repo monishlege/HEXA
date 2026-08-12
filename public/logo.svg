@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="60%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </radialGradient>
+    <linearGradient id="goldLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="30%" stop-color="#facc15"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="80%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#854d0e"/>
+    </linearGradient>
+    <linearGradient id="goldBright" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a16207"/>
+      <stop offset="25%" stop-color="#eab308"/>
+      <stop offset="45%" stop-color="#fef08a"/>
+      <stop offset="75%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#713f12"/>
+    </linearGradient>
+    <linearGradient id="goldDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ca8a04"/>
+      <stop offset="50%" stop-color="#854d0e"/>
+      <stop offset="100%" stop-color="#422006"/>
+    </linearGradient>
+    <linearGradient id="goldBevel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#3b1a03"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+    <filter id="innerGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowDiff"/>
+      <feFlood flood-color="#000" flood-opacity="0.5"/>
+      <feComposite in2="shadowDiff" operator="in"/>
+      <feComposite in2="SourceGraphic" operator="over"/>
+    </filter>
+    <g id="leafPair">
+      <path d="M0,0 Q-8,-12 -20,-10 Q-8,-2 0,0" fill="url(#goldBright)"/>
+      <path d="M0,-4 Q-6,-16 -18,-14 Q-6,-6 0,-4" fill="url(#goldLight)"/>
+    </g>
+    <g id="fleurDeLis">
+      <path d="M0,-25 C5,-15 12,-10 12,-2 C12,5 7,10 0,12 C-7,10 -12,5 -12,-2 C-12,-10 -5,-15 0,-25 Z" fill="url(#goldBright)"/>
+      <path d="M0,-25 C2,-18 15,-8 18,2 C21,10 13,16 8,10 C5,6 4,0 0,3 C-4,0 -5,6 -8,10 C-13,16 -21,10 -18,2 C-15,-8 -2,-18 0,-25 Z" fill="url(#goldLight)"/>
+      <path d="M-10,4 L10,4 L8,8 L-8,8 Z" fill="url(#goldDark)"/>
+    </g>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bgGlow)"/>
+  <rect width="800" height="800" fill="none" stroke="#030712" stroke-width="20" opacity="0.8"/>
+
+  <g filter="url(#dropShadow)">
+    <use href="#fleurDeLis" x="400" y="95" transform="scale(1.3) translate(-123, -22)"/>
+    <use href="#fleurDeLis" x="330" y="120" transform="scale(0.8) rotate(-20 330 120) translate(-75,-20)"/>
+    <use href="#fleurDeLis" x="470" y="120" transform="scale(0.8) rotate(20 470 120) translate(-125,-40)"/>
+
+    <path d="M 270 200 C 230 220 210 260 225 300 C 235 320 250 330 245 350 C 240 370 210 390 200 410 C 190 430 205 460 225 480 C 240 495 250 520 270 540" fill="none" stroke="url(#goldBright)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 530 200 C 570 220 590 260 575 300 C 565 320 550 330 555 350 C 560 370 590 390 600 410 C 610 430 595 460 575 480 C 560 495 550 520 530 540" fill="none" stroke="url(#goldBright)" stroke-width="5" stroke-linecap="round"/>
+    <use href="#fleurDeLis" x="195" y="410" transform="scale(0.7) rotate(-90 195 410) translate(-60, -30)"/>
+    <use href="#fleurDeLis" x="605" y="410" transform="scale(0.7) rotate(90 605 410) translate(-55, -27)"/>
+
+    <path d="M 260 545 C 240 560 230 590 260 610 C 290 625 320 590 290 570 C 270 555 250 580 275 595" fill="none" stroke="url(#goldLight)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 540 545 C 560 560 570 590 540 610 C 510 625 480 590 510 570 C 530 555 550 580 525 595" fill="none" stroke="url(#goldLight)" stroke-width="4" stroke-linecap="round"/>
+
+    <g transform="translate(310, 565) rotate(-15)">
+      <use href="#leafPair" transform="scale(0.9)"/>
+      <use href="#leafPair" transform="translate(20,-5) rotate(15) scale(0.8)"/>
+      <use href="#leafPair" transform="translate(40,-5) rotate(30) scale(0.7)"/>
+      <use href="#leafPair" transform="translate(60,0) rotate(45) scale(0.6)"/>
+    </g>
+    <g transform="translate(490, 565) scale(-1, 1) rotate(-15)">
+      <use href="#leafPair" transform="scale(0.9)"/>
+      <use href="#leafPair" transform="translate(20,-5) rotate(15) scale(0.8)"/>
+      <use href="#leafPair" transform="translate(40,-5) rotate(30) scale(0.7)"/>
+      <use href="#leafPair" transform="translate(60,0) rotate(45) scale(0.6)"/>
+    </g>
+
+    <polygon points="400,130 570,228 570,424 400,522 230,424 230,228" fill="none" stroke="url(#goldDark)" stroke-width="18" stroke-linejoin="round"/>
+    <polygon points="400,130 570,228 570,424 400,522 230,424 230,228" fill="none" stroke="url(#goldBright)" stroke-width="12" stroke-linejoin="round"/>
+    <polygon points="400,130 570,228 570,424 400,522 230,424 230,228" fill="none" stroke="url(#goldLight)" stroke-width="4" stroke-linejoin="round"/>
+    <polygon points="400,148 554,237 554,415 400,504 246,415 246,237" fill="#0b1329" stroke="url(#goldDark)" stroke-width="3"/>
+    <polygon points="400,165 538,245 538,405 400,485 262,405 262,245" fill="none" stroke="url(#goldBevel)" stroke-width="10" stroke-linejoin="round"/>
+    <polygon points="400,165 538,245 538,405 400,485 262,405 262,245" fill="none" stroke="url(#goldBright)" stroke-width="4" stroke-linejoin="round"/>
+    <polygon points="400,180 525,252 525,398 400,470 275,398 275,252" fill="none" stroke="url(#goldLight)" stroke-width="1.5" opacity="0.8"/>
+
+    <g transform="translate(400, 240)">
+      <path d="M -50,15 L 50,15 L 45,23 L -45,23 Z" fill="url(#goldDark)"/>
+      <rect x="-48" y="16" width="96" height="5" rx="2" fill="url(#goldLight)"/>
+      <circle cx="-35" cy="18.5" r="1.5" fill="#fff"/>
+      <circle cx="-20" cy="18.5" r="1.5" fill="#990000"/>
+      <circle cx="0" cy="18.5" r="2" fill="#fff"/>
+      <circle cx="20" cy="18.5" r="1.5" fill="#990000"/>
+      <circle cx="35" cy="18.5" r="1.5" fill="#fff"/>
+      <path d="M -45,15 C -42,0 -52,-15 -55,-25 C -40,-10 -30,0 -25,15" fill="url(#goldBright)"/>
+      <path d="M 45,15 C 42,0 52,-15 55,-25 C 40,-10 30,0 25,15" fill="url(#goldBright)"/>
+      <path d="M -25,15 C -20,-10 -30,-25 -32,-35 C -15,-20 -5,-5 0,15" fill="url(#goldLight)"/>
+      <path d="M 25,15 C 20,-10 30,-25 32,-35 C 15,-20 5,-5 0,15" fill="url(#goldLight)"/>
+      <path d="M -12,15 C -8,-20 0,-40 0,-45 C 0,-40 8,-20 12,15 Z" fill="url(#goldBright)"/>
+      <circle cx="0" cy="-47" r="3.5" fill="url(#goldLight)"/>
+      <circle cx="-32" cy="-36" r="3" fill="url(#goldLight)"/>
+      <circle cx="32" cy="-36" r="3" fill="url(#goldLight)"/>
+      <circle cx="-55" cy="-26" r="2.5" fill="url(#goldLight)"/>
+      <circle cx="55" cy="-26" r="2.5" fill="url(#goldLight)"/>
+      <path d="M -45,15 C -40,3 -20,-5 0,-5 C 20,-5 40,3 45,15 Z" fill="#450a0a" opacity="0.6"/>
+    </g>
+
+    <g transform="translate(400, 355)">
+      <g fill="url(#goldDark)" transform="translate(2, 3)">
+        <rect x="-62" y="-50" width="16" height="85" rx="2"/>
+        <rect x="-12" y="-50" width="16" height="85" rx="2"/>
+        <rect x="-50" y="-12" width="40" height="14"/>
+        <path d="M 4,-50 L 35,-50 C 52,-50 58,-32 42,-16 C 30,-5 4,-8 4,-8 Z"/>
+        <path d="M 12,-10 L 45,35 L 62,35 L 26,-12 Z"/>
+      </g>
+      <path d="M -65,-50 L -46,-50 L -46,35 L -65,35 Z" fill="url(#goldBright)"/>
+      <path d="M -65,-50 L -55.5,-50 L -55.5,35 L -65,35 Z" fill="url(#goldLight)"/>
+      <path d="M -72,-52 L -39,-52 L -39,-45 L -72,-45 Z" fill="url(#goldLight)"/>
+      <path d="M -72,33 L -39,33 L -39,40 L -72,40 Z" fill="url(#goldLight)"/>
+      <path d="M -15,-50 L 4,-50 L 4,35 L -15,35 Z" fill="url(#goldBright)"/>
+      <path d="M -15,-50 L -5.5,-50 L -5.5,35 L -15,35 Z" fill="url(#goldLight)"/>
+      <path d="M -20,-52 L 9,-52 L 9,-45 L -20,-45 Z" fill="url(#goldLight)"/>
+      <path d="M -20,33 L 9,33 L 9,40 L -20,40 Z" fill="url(#goldLight)"/>
+      <path d="M -46,-12 L -15,-12 L -15,1 L -46,1 Z" fill="url(#goldLight)"/>
+      <path d="M -46,-12 L -15,-12 L -15,-6 L -46,-6 Z" fill="#fff" opacity="0.3"/>
+      <path d="M 4,-50 L 35,-50 C 56,-50 56,-14 35,-14 L 4,-14 Z M 4,-38 L 4,-26 L 30,-26 C 38,-26 38,-38 30,-38 Z" fill="url(#goldLight)"/>
+      <path d="M 4,-50 L 35,-50 C 56,-50 56,-14 35,-14 L 4,-14 Z" fill="url(#goldBright)" opacity="0.15"/>
+      <path d="M 10,-14 C 20,-14 25,-5 31,5 L 50,35 L 70,35 L 46,2 C 38,-10 28,-14 10,-14 Z" fill="url(#goldBright)"/>
+      <path d="M 10,-14 C 20,-14 25,-5 31,5 L 50,35 L 57,35 L 34,2 C 28,-7 20,-14 10,-14 Z" fill="url(#goldLight)"/>
+      <path d="M 45,33 L 73,33 L 73,39 L 45,39 Z" fill="url(#goldLight)"/>
+      <path d="M -18,10 C -18,28 -3,38 8,24 C 16,14 4,0 -8,12" fill="none" stroke="url(#goldLight)" stroke-width="4"/>
+    </g>
+
+    <path d="M 200,545 Q 400,525 600,545 L 590,535 Q 400,515 210,535 Z" fill="url(#goldDark)" opacity="0.8"/>
+    <path id="textArcTop" d="M 180,550 Q 400,520 620,550" fill="none" stroke="none"/>
+    <path id="textArcBottom" d="M 250,625 Q 400,605 550,625" fill="none" stroke="none"/>
+    <text font-family="'Cinzel', 'Trajan Pro', 'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="44" letter-spacing="7" fill="url(#goldBright)" text-anchor="middle" filter="url(#innerGlow)">
+      <textPath href="#textArcTop" startOffset="50%" text-anchor="middle">HEXACORE</textPath>
+    </text>
+    <text font-family="'Cinzel', 'Trajan Pro', 'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="44" letter-spacing="7" fill="url(#goldLight)" text-anchor="middle" opacity="0.9" transform="translate(0, -1.5)">
+      <textPath href="#textArcTop" startOffset="50%" text-anchor="middle">HEXACORE</textPath>
+    </text>
+    <path d="M 240,575 Q 400,555 560,575" fill="none" stroke="url(#goldBevel)" stroke-width="2"/>
+    <polygon points="400,562 406,565 400,568 394,565" fill="url(#goldLight)"/>
+    <circle cx="235" cy="575" r="3" fill="url(#goldBright)"/>
+    <circle cx="565" cy="575" r="3" fill="url(#goldBright)"/>
+    <text font-family="'Cinzel', 'Trajan Pro', 'Georgia', 'Times New Roman', serif" font-weight="600" font-size="30" letter-spacing="10" fill="url(#goldLight)" text-anchor="middle">
+      <textPath href="#textArcBottom" startOffset="50%" text-anchor="middle">ROYAL</textPath>
+    </text>
+    <path d="M 360,635 Q 400,645 440,635 C 420,643 410,648 400,648 C 390,648 380,643 360,635 Z" fill="url(#goldBright)"/>
+    <circle cx="400" cy="640" r="2.5" fill="url(#goldLight)"/>
+  </g>
+</svg>

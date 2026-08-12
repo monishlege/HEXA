@@ -1,6 +1,7 @@
 "use client";
 import { Mail, Phone, Globe } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -9,10 +10,19 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-10">
           <div>
             <div className="flex items-center gap-3">
-              <div className="grid place-items-center h-10 w-10 rounded-xl gold-border bg-gradient-to-br from-rose-500 to-fuchsia-600 text-white font-display text-lg">
-                HR
+              <div className="relative h-16 w-16 overflow-hidden rounded-2xl bg-transparent">
+                <Image
+                  src="/logo.svg"
+                  alt="HEXACORE ROYAL logo"
+                  fill
+                  sizes="64px"
+                  className="object-contain"
+                  priority
+                />
               </div>
-              <div className="font-display text-xl text-[color:var(--foreground)]">HEXACORE ROYAL</div>
+              <div className="font-display text-xl text-[color:var(--foreground)]">
+                HEXACORE ROYAL
+              </div>
             </div>
             <p className="mt-4 text-sm text-zinc-400 max-w-sm">
               Premium Excellence in Web Design. We craft bold digital experiences with a mobile‑first approach that help businesses grow and stand out in the digital landscape.

@@ -42,9 +42,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/royal-tech-logo.svg",
-    shortcut: "/royal-tech-logo.svg",
-    apple: "/royal-tech-logo.svg",
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
   },
   openGraph: {
     title: "HEXACORE ROYAL | Premium Web Design Services",

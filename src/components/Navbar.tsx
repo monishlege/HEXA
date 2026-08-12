@@ -17,7 +17,7 @@ export default function Navbar() {
             <Link href="#home" className="flex items-center gap-3" aria-label="HEXACORE ROYAL Home">
               <div className="relative h-8 w-8 overflow-hidden rounded-full gold-border grid place-items-center">
                 <Image
-                  src="/royal-tech-logo.svg"
+                  src="/logo.svg"
                   alt="HEXACORE ROYAL logo"
                   fill
                   sizes="32px"
