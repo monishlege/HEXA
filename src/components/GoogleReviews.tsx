@@ -20,15 +20,6 @@ const reviews = [
     tone: "bg-blue-500/20 text-blue-300 ring-1 ring-blue-400/40",
   },
   {
-    initial: "K",
-    name: "K Hemasree",
-    meta: "0 reviews • 0 photos",
-    rating: 5,
-    text: "Excellent service.",
-    new: true,
-    tone: "bg-violet-500/20 text-violet-300 ring-1 ring-violet-400/40",
-  },
-  {
     initial: "A",
     name: "AI Satheesh",
     meta: "0 reviews • 0 photos",

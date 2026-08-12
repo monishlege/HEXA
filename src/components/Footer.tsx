@@ -27,14 +27,12 @@ export default function Footer() {
             <p className="mt-4 text-sm text-zinc-400 max-w-sm">
               Premium Excellence in Web Design. We craft bold digital experiences with a mobile‑first approach that help businesses grow and stand out in the digital landscape.
             </p>
-            <div className="mt-4 space-y-2 text-sm">
-              <a href="mailto:hexacore.royal@gmail.com" className="flex items-center gap-2 text-zinc-300 hover:text-cyan-300">
-                <Mail className="size-4" />
-                hexacore.royal@gmail.com
-              </a>
-              <a href="tel:+917829110701" className="flex items-center gap-2 text-zinc-300 hover:text-cyan-300">
+            <div className="mt-4 space-y-2 text-sm text-zinc-300">
+              <div className="font-semibold">Vishwas S</div>
+              <div>Technical Project Manager</div>
+              <a href="https://wa.me/918197356866" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-300">
                 <Phone className="size-4" />
-                +91 78291 10701
+                +91 81973 56866
               </a>
             </div>
           </div>
