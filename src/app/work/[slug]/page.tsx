@@ -93,7 +93,7 @@ export default async function WorkDetailPage({ params }: Props) {
           We design premium websites and landing pages in Bangalore for startups and small–mid businesses.
         </p>
         <a
-          href={`https://wa.me/917829110701?text=${encodeURIComponent(
+          href={`https://wa.me/918197356866?text=${encodeURIComponent(
             "Hi HEXACORE ROYAL, I saw your work and I’d like a similar website/landing page."
           )}`}
           target="_blank"
