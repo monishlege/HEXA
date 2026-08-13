@@ -21,9 +21,10 @@ const siteUrl = getSiteUrl();
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "HEXACORE ROYAL | Premium Web Design Services in Bangalore",
+  title: "Hexacore Royal | Premium Digital & Web Agency",
   description:
-    "Premium web design services in Bangalore — responsive website design, custom website development, SEO, and high-conversion landing pages.",
+    "Hexacore Royal (Hexacore) is a premium digital agency crafting ultra-fast web development, UI/UX design, and software solutions.",
+  keywords: ["Hexacore", "Hexacore Royal", "Hexacore software", "Hexacore agency"],
   verification: {
     google: "google7a54d8665c56f6da.html",
   },
@@ -47,17 +48,17 @@ export const metadata: Metadata = {
     apple: "/logo.svg",
   },
   openGraph: {
-    title: "HEXACORE ROYAL | Premium Web Design Services",
+    title: "Hexacore Royal | Premium Digital & Web Agency",
     description:
-      "Premium web design services in Bangalore — responsive websites, custom development, and high-conversion landing pages.",
+      "Hexacore Royal (Hexacore) is a premium digital agency crafting ultra-fast web development, UI/UX design, and software solutions.",
     type: "website",
     url: siteUrl,
   },
   twitter: {
     card: "summary_large_image",
-    title: "HEXACORE ROYAL — Premium Web Design Services",
+    title: "Hexacore Royal | Premium Digital & Web Agency",
     description:
-      "Responsive websites, custom development, SEO, and high-conversion landing pages in Bangalore.",
+      "Hexacore Royal (Hexacore) is a premium digital agency crafting ultra-fast web development, UI/UX design, and software solutions.",
   },
 };
 
@@ -74,12 +75,11 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "HEXACORE ROYAL",
-              url: siteUrl,
-              logo: `${siteUrl}/royal-tech-logo.svg`,
-              description:
-                "Premium web design services — websites, SEO, and performance optimization in Bangalore.",
+              "@type": "Brand",
+              name: "Hexacore Royal",
+              alternateName: "Hexacore",
+              url: "https://hexacore-royal.vercel.app/",
+              logo: "https://hexacore-royal.vercel.app/logo.png",
             }),
           }}
         />

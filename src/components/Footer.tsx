@@ -25,7 +25,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="mt-4 text-sm text-zinc-400 max-w-sm">
-              Premium Excellence in Web Design. We craft bold digital experiences with a mobile‑first approach that help businesses grow and stand out in the digital landscape.
+              HEXACORE ROYAL — Premium Software Building & Web Development Agency based in Bengaluru, Karnataka, India.
             </p>
             <div className="mt-4 space-y-2 text-sm text-zinc-300">
               <div className="font-semibold">Vishwas S</div>

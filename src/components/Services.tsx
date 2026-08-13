@@ -45,10 +45,7 @@ export default function Services() {
     <section id="services" className="mx-auto max-w-7xl px-6 py-24">
       <div className="text-center">
         <h2 className="font-display text-3xl md:text-5xl text-[color:var(--foreground)]">
-          Premium{" "}
-          <span className="bg-gradient-to-r from-cyan-300 via-emerald-300 to-purple-400 bg-clip-text text-transparent">
-            Digital Solutions
-          </span>
+          High-Performance Web Apps & Digital Solutions for Ambitious Startups in Bengaluru
         </h2>
         <p className="mt-3 text-zinc-400">
           Comprehensive digital services designed to elevate your brand and drive measurable growth.
