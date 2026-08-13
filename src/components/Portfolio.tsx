@@ -29,7 +29,7 @@ export default function Portfolio() {
           <div className="h-56 overflow-hidden bg-black">
             <img
               src={heroScreenshot}
-              alt="DOT Solutions hero page screenshot"
+              alt="DOT Solutions hero page design created by Hexacore Royal for a web agency portfolio showcase"
               className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
             />
           </div>

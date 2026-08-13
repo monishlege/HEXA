@@ -28,13 +28,13 @@ export default function HeroAgency() {
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div className="rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl shadow-2xl p-6 md:p-8">
             <div className="mb-4 text-sm text-cyan-300/80">
-              Hexacore Royal — Premium Digital & Web Agency
+              Hexacore Royal — Bangalore Web Agency & Software Company
             </div>
             <h1 className="text-3xl leading-tight text-white md:text-5xl">
-              Hexacore Royal | Premium Digital & Web Agency
+              Hexacore Royal | Bangalore Web Agency & Software Company
             </h1>
             <p className="mt-4 text-zinc-300 md:text-lg">
-              Premium digital agency crafting ultra-fast web development, UI/UX design, and software solutions.
+              We design and build fast websites, web apps, and software systems for startups and businesses across Bangalore and Bengaluru.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">

@@ -14,11 +14,11 @@ export default function Navbar() {
           className="glass gold-border mt-4 rounded-2xl"
         >
           <div className="flex items-center justify-between px-4 py-3">
-            <Link href="#home" className="flex items-center gap-3" aria-label="HEXACORE ROYAL Home">
+            <Link href="#home" className="flex items-center gap-3" aria-label="Hexacore Royal home page">
               <div className="relative h-8 w-8 overflow-hidden rounded-full gold-border grid place-items-center">
                 <Image
                   src="/logo.svg"
-                  alt="HEXACORE ROYAL logo"
+                  alt="Hexacore Royal logo for Bangalore web agency and software company"
                   fill
                   sizes="32px"
                   className="object-cover"
@@ -37,7 +37,7 @@ export default function Navbar() {
                 About
               </Link>
               <Link href="#services" className="text-sm hover:text-[color:var(--accent)] transition-colors">
-                Services
+                Bangalore Web Services
               </Link>
               <Link href="#pricing" className="text-sm hover:text-[color:var(--accent)] transition-colors">
                 Pricing

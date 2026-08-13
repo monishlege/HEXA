@@ -21,10 +21,19 @@ const siteUrl = getSiteUrl();
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Hexacore Royal | Premium Digital & Web Agency",
+  title: "Hexacore Royal | Bangalore Web Agency & Software Company",
   description:
-    "Hexacore Royal (Hexacore) is a premium digital agency crafting ultra-fast web development, UI/UX design, and software solutions.",
-  keywords: ["Hexacore", "Hexacore Royal", "Hexacore software", "Hexacore agency"],
+    "Hexacore Royal is a Bangalore web agency and software company building ultra-fast websites, custom software, UI/UX design, and growth-focused digital experiences for businesses in Bengaluru.",
+  keywords: [
+    "Hexacore",
+    "Hexacore Royal",
+    "Hexacore software",
+    "Hexacore agency",
+    "Bangalore web agency",
+    "Bengaluru web development agency",
+    "software company in Bangalore",
+    "custom software development Bengaluru",
+  ],
   verification: {
     google: "google7a54d8665c56f6da.html",
   },
@@ -48,17 +57,17 @@ export const metadata: Metadata = {
     apple: "/logo.svg",
   },
   openGraph: {
-    title: "Hexacore Royal | Premium Digital & Web Agency",
+    title: "Hexacore Royal | Bangalore Web Agency & Software Company",
     description:
-      "Hexacore Royal (Hexacore) is a premium digital agency crafting ultra-fast web development, UI/UX design, and software solutions.",
+      "Hexacore Royal is a Bangalore web agency and software company building ultra-fast websites, custom software, UI/UX design, and growth-focused digital experiences for businesses in Bengaluru.",
     type: "website",
     url: siteUrl,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hexacore Royal | Premium Digital & Web Agency",
+    title: "Hexacore Royal | Bangalore Web Agency & Software Company",
     description:
-      "Hexacore Royal (Hexacore) is a premium digital agency crafting ultra-fast web development, UI/UX design, and software solutions.",
+      "Hexacore Royal is a Bangalore web agency and software company building ultra-fast websites, custom software, UI/UX design, and growth-focused digital experiences for businesses in Bengaluru.",
   },
 };
 
@@ -80,6 +89,9 @@ export default function RootLayout({
               alternateName: "Hexacore",
               url: "https://hexacore-royal.vercel.app/",
               logo: "https://hexacore-royal.vercel.app/logo.png",
+              areaServed: ["Bengaluru", "Bangalore", "Karnataka"],
+              description:
+                "Hexacore Royal is a Bangalore web agency and software company building premium websites, custom software, and digital experiences for businesses in Bengaluru.",
             }),
           }}
         />

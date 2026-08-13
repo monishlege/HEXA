@@ -26,14 +26,10 @@ export default function About() {
             </span>
           </h2>
           <p className="mt-4 text-zinc-300 md:max-w-xl">
-            At HEXACORE ROYAL, we believe exceptional design shouldn’t need an
-            exceptional price tag. We’re a premium digital agency crafting
-            powerful, conversion‑focused websites that help brands dominate their markets.
+            At Hexacore Royal, we build premium digital experiences for businesses in Bangalore and Bengaluru — from high-converting websites to custom software products that match complex growth goals.
           </p>
           <p className="mt-3 text-zinc-400 md:max-w-xl">
-            Our award‑winning team blends cutting‑edge technology with strategic
-            design thinking to deliver sites that don’t just look incredible — they
-            drive real business results.
+            Our team blends strategy, UI/UX design, and performance engineering to create websites and apps that help brands win attention, trust, and sales in competitive markets.
           </p>
           <div className="mt-6 grid sm:grid-cols-3 gap-6">
             {[

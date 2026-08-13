@@ -25,7 +25,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="mt-4 text-sm text-zinc-400 max-w-sm">
-              HEXACORE ROYAL — Premium Software Building & Web Development Agency based in Bengaluru, Karnataka, India.
+              HEXACORE ROYAL — Bangalore web agency and software company building premium websites, apps, and digital experiences for businesses across Bengaluru, Karnataka, India.
             </p>
             <div className="mt-4 space-y-2 text-sm text-zinc-300">
               <div className="font-semibold">Vishwas S</div>
@@ -41,21 +41,21 @@ export default function Footer() {
             <div className="font-display text-lg text-[color:var(--foreground)]">Quick Links</div>
             <ul className="mt-4 space-y-2 text-sm text-zinc-300">
               <li><a href="#home" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Home</a></li>
-              <li><a href="#about" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> About</a></li>
-              <li><Link href="/services" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Services</Link></li>
+              <li><a href="#about" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> About Hexacore Royal</a></li>
+              <li><Link href="/services" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Bangalore Web Services</Link></li>
               <li><a href="#pricing" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Pricing</a></li>
-              <li><a href="#contact" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Contact</a></li>
-              <li><Link href="/work" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Work</Link></li>
+              <li><a href="#contact" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Contact Bangalore Team</a></li>
+              <li><Link href="/work" className="hover:text-cyan-300 flex items-center gap-2"><Globe className="size-3" /> Work Portfolio</Link></li>
             </ul>
           </div>
 
           <div>
             <div className="font-display text-lg text-[color:var(--foreground)]">Services</div>
             <ul className="mt-4 space-y-2 text-sm text-zinc-300">
-              <li><Link href="/services/web-development" className="hover:text-cyan-300">Web Design & Development</Link></li>
-              <li><Link href="/services/ui-ux" className="hover:text-cyan-300">UI/UX & Landing Pages</Link></li>
-              <li><Link href="/services/seo" className="hover:text-cyan-300">SEO Services</Link></li>
-              <li><Link href="/services/performance" className="hover:text-cyan-300">Performance Optimization</Link></li>
+              <li><Link href="/services/web-development" className="hover:text-cyan-300">Bangalore Web Development</Link></li>
+              <li><Link href="/services/ui-ux" className="hover:text-cyan-300">UI/UX Design in Bengaluru</Link></li>
+              <li><Link href="/services/seo" className="hover:text-cyan-300">SEO Services Bangalore</Link></li>
+              <li><Link href="/services/performance" className="hover:text-cyan-300">Website Performance Optimization</Link></li>
             </ul>
           </div>
         </div>
