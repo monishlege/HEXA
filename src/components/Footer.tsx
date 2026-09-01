@@ -28,11 +28,11 @@ export default function Footer() {
               HEXACORE ROYAL — Bangalore web agency and software company building premium websites, apps, and digital experiences for businesses across Bengaluru, Karnataka, India.
             </p>
             <div className="mt-4 space-y-2 text-sm text-zinc-300">
-              <div className="font-semibold">Vishwas S</div>
+              <div className="font-semibold">Lavanya Srinivasa</div>
               <div>Technical Project Manager</div>
-              <a href="https://wa.me/918197356866" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-300">
+              <a href="https://wa.me/919902518968" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-300">
                 <Phone className="size-4" />
-                +91 81973 56866
+                +91 99025 18968
               </a>
             </div>
           </div>
